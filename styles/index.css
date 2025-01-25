@@ -1,0 +1,88 @@
+/* * {
+    text-align: right;
+} */
+
+ 
+
+
+body {
+    background-color: rgb(54, 92, 141);
+    color: rgb(206, 201, 201);
+}
+
+.info-site-name {
+    text-align: center;
+    color: rgb(62, 255, 4);
+}
+
+.info-container {
+    background-color: rgb(3, 88, 88);
+    display: inline-block;
+    max-height: 200px; 
+    max-width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid grey;
+    box-sizing: border-box;
+}
+
+
+.info-content {
+    color: red;
+    width: 100%; 
+    height: 100%;
+}
+#para1 {
+    text-align: left;
+    color: aqua;
+}
+
+p.center {
+    text-align: left;
+    color: chartreuse;
+}
+
+.info-content:before {
+    content: "hello";
+}
+
+.info-content:after {
+    content: "goodbye";
+} 
+
+
+.bird, .cat, .chip {
+    border: 5px solid grey;
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    background-color: rgb(3, 88, 88);
+    color: rgb(206, 201, 201);
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(40, 212, 212);
+    color: black; 
+}
+
+/* img:last-of-type {
+    border: 2px dotted green;
+} */
+.square {
+    width: 50%;
+}
+
+.square ::after{
+    content: "hello";
+    display: block;
+    padding-bottom: 100%;
+}
